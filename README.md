@@ -97,7 +97,7 @@ Protocol · Playwright for the browser checks.
 
 | | |
 |---|---|
-| Tests | **30** passing in the API-token, OAuth, MCP and engine-gate suites (measured 2026-10-07) |
+| Tests | **36** passing in the API-token, OAuth, MCP, engine-gate and embedding suites (measured 2026-10-07) |
 | Agent surface | **18** MCP tools, **11** of them read-only, and no delete |
 | Server | **5,406** lines in one file, **1** runtime dependency |
 | Commits | **63** to the CRM, 2026-06-11 to 2026-09-12 |
