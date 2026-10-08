@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Dime Data CRM">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFD84A"/><stop offset="1" stop-color="#F2B200"/></linearGradient></defs>
+  <circle cx="64" cy="64" r="60" fill="url(#g)" stroke="#1A1A1A" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M46 46 28 64l18 18M82 46l18 18-18 18M71 40 57 88" fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
