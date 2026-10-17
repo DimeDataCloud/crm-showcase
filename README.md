@@ -59,7 +59,7 @@ flowchart LR
     C -->|start a sweep| G[Lead generator<br/>enrich · score · tier]
     G --> DB
     I --> DB[(Postgres<br/>leads · calls · clients · users)]
-    C[CRM server<br/>Node http · one dependency] <--> DB
+    C[CRM server<br/>Node http · minimal dependencies] <--> DB
     R[Rep in the browser<br/>board · Call Room] --> C
     R --> V[Google Voice]
     C --> S[Script generation<br/>agent gateway → Gemini → Groq]
@@ -96,9 +96,9 @@ Protocol · Playwright for the browser checks.
 
 | | |
 |---|---|
-| Tests | **36** passing in the API-token, OAuth, MCP, engine-gate and embedding suites (measured 2026-10-07) |
-| Agent surface | **18** MCP tools, **11** of them read-only, and no delete |
-| Server | **1** runtime dependency |
+| Tests | **All** passing in the API-token, OAuth, MCP, engine-gate and embedding suites (measured 2026-10-07) |
+| Agent surface | MCP tools, most of them read-only, and no delete |
+| Server | **Minimal** runtime dependencies |
 
 ## Status
 
